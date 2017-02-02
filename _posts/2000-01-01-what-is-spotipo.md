@@ -12,7 +12,7 @@ Bultin dashboard allows deeper analysis into whats happening with the hotspot
 
 
 
-{% include full-screenshot.html file="main-dashboard.png" %}
+{% include full-screenshot.html file="dashboard-demo.gif" %}
 
 
 Since its an Open Source solution under AGPL, you can freely download and install in your own server.

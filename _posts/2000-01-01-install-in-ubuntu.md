@@ -17,6 +17,12 @@ Please download corresponding .deb file from out [site](https://www.spotipo.com/
   </code>
 </pre>
 
+## Next Steps
+
+If installation is successful, you should be able to see the login screen by going to <strong>http://YOURSERVERIP</strong>. Default username and password are admin@admin.com,password respectively.
+
+Refer to getting started for configuration
+
 ## Getting help.
 
 Having issues while installing? Use our [forum](https://discuss.spotipo.com) to reach out.

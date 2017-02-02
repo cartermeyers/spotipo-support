@@ -34,6 +34,14 @@ After installation please add it root directory (C:\Program Files (x86)\Git\bin)
 
 Here you can see quick video.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0rv_OueBwV4" frameborder="0" allowfullscreen></iframe>
+
+## Next Steps
+
+If installation is successful, you should be able to see the login screen by going to <strong>http://YOURSERVERIP</strong>. Default username and password are admin@admin.com,password respectively.
+
+Refer to getting started for configuration
+
 ## Getting help.
 
 Having issues while installing? Use our [forum](https://discuss.spotipo.com) to reach out.
