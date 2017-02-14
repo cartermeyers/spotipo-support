@@ -18,26 +18,38 @@ However recent versions of controller seems to have changed the external portal 
 
 Remember to apply settings
 
+## Enable required ports on the site
+
+Please enable following ports in your firewall/AWS console if required.
+
+<pre>
+    <code class="shell"> 
+    22
+    80
+    8081
+    8080
+    8443
+    8880
+    8843
+
+    </code>
+</pre>
+
 ## Figure out the site id
 
 Each site in unifi controller is identified by a parameter called siteid. To identify this, login to Unifi controller and go the correct site.
 
 Siteid will be part of the URL.
 
-<pre>
-  <code class="shell">
-  https://unifi.xxxx.com/manage/site/SITEID/dashboard
-  </code>
-</pre>
-
+{% include full-screenshot.html file="unifi-controller-siteid.png" %}
 
 ## Enable redirection to Spotipo
 
 Now you will need to replace the unifi's index.html file with the below script. This will redirect the Guest to correctly to spotipo.
 
-This file is available in /var/lib/unifi/sites/SITEID/portal in case of Ubuntu/Debian
+This file is available in /var/lib/unifi/sites/{**SITEID**}/portal in case of Ubuntu/Debian
 
-In windows this is available in ***
+In windows this is available in C:\Users\ **WINDOWS USERNAME** \Ubiquiti UniFi\data\sites\ **SITEID**
 
 
 **Remember to replace SERVERADDRESS and SITEID**
