@@ -8,7 +8,7 @@ Spotipo is available on Ubuntu(14.04+) and Debian (8+)
 
 ## Installation
 
-Please download corresponding .deb file from out [site](https://www.spotipo.com/download/). Use the following commands for installation.
+Please download corresponding .deb file from our [site](https://www.spotipo.com/download/). Use the following commands for installation.
 
 <pre>
   <code class="shell">
